@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="NotesApp">
+<head>
+   <meta charset="UTF-8">
+   <title>Notes</title>
+   <script src="/bower_components/angular/angular.min.js"></script>
+   <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+   <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+</head>
+<body style="padding-top: 50px" ng-cloak>
+<div class="container">
+   <div role="menu">
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="#!/">Notes App</a>
+            </div>
+            <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav">
+                  <li><a href="#!/">Home</a></li>
+                  <li><a href="#!/add">Add a note</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </div>
+   <div role="heading" class="">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="page-header">
+               <h1>Notes application
+                  <small>a dummy app taking and displaying dummy notes</small>
+               </h1>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div role="presentation">
+      <div ng-view=""></div>
+   </div>
+</div>
+</body>
+<script src="/bower_components/angular-route/angular-route.min.js"></script>
+<script src="/bower_components/lodash/dist/lodash.min.js"></script>
+<script src="/bower_components/restangular/dist/restangular.min.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/notes.module.js"></script>
+<script src="js/notes.config.js"></script>
+</html>

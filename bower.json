@@ -1,0 +1,24 @@
+{
+  "name": "evalue-js",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ondrej Linek"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.com/defectus/evalue-js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.7",
+    "bootstrap": "3.3.6",
+    "fontawesome": "4.4.0",
+    "angular-route": "^1.5.7",
+    "restangular": "^1.5.2"
+  }
+}

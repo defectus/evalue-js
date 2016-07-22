@@ -1,0 +1,28 @@
+Úkol pro uchazeče o pozici Front End developer, verze pro rok 2015/2016
+
+Připravte jednoduchou aplikaci v AngularJs (nebo ReactJS) tak, aby se dala po naklonování repository a s nainstalovaným node.js nainstalovat a spustit.
+
+Předpřipravený server s REST API, které bude aplikace používat:
+Root URL: http://private-9aad-note10.apiary-mock.com/ (případně použijte REST api podle uvážení: https://www.firebase.com/, http://jsonplaceholder.typicode.com/, nebo vlastní řešení)
+Metody:
+GET /notes
+GET /notes/{id}
+POST /notes
+PUT /notes/{id}
+DELETE /notes/{id}
+
+Funkčni požadavky:
+Po instalaci a spuštění se po zadání localhost:9000 objeví stránka se seznamem s poznámkami.
+Je možné zobrazit detail, editovat, smazat a vytvořit novou poznámku. (Apiary Mock bude vracet stále stejná data, předmětem úkolu je volat správné metody)
+V aplikaci bude možné měnit EN/CZ jazyk.
+
+Nefunkční požadavky:
+GUI dle vlastního návrhu, použití Bootstrapu a LESS/SASS/Stylus preferováno.
+Kód by měl být ES5+ JS s použitim novějších API jako Promise, Array extras..bonus pokud by byl použit Typescript
+Instalace závislostí pomocí Bower
+Build pomoci gulp nebo grunt, případně webpack nebo browserify.
+Tamplaty v js.
+Použít ui-router (nebo https://github.com/rackt/react-router).
+Alespoň jeden základní protractor test.
+
+Kód vyvíjejte do github/bitbucket veřejného repository, v souboru README.md popište instrukce pro instalaci a spuštění aplikace a testu, a pošlete URL emailem.

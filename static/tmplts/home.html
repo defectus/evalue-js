@@ -1,0 +1,12 @@
+<div ng-controller="HomeController">
+   <div class="row" ng-repeat="note in notes">
+      <div class="col-lg-1">{{note.id}}</div>
+      <div class="col-lg-5">{{note.title}}</div>
+      <div class="col-lg-1">
+         <a class="btn btn-primary" href="#!/update/{{note.id}}">Update</a>
+      </div>
+      <div class="col-lg-1">
+         <div class="btn btn-danger" ng-click="deleteNote(note.id)">Delete</div>
+      </div>
+   </div>
+</div>
